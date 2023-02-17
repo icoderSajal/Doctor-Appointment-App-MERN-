@@ -8,7 +8,7 @@
     "start": "node server.js",
     "server": "nodemon server.js",
     "frontent-client": "npm start --prefix,/frontent-client",
-    "dev": "concurrently \"npm run server\" \"npm run frontent-client\""
+    "dev": "concurrently \"npm start\" \"npm run frontent-client\""
   },
   "author": "sajal kumar bajaj",
   "license": "ISC",
